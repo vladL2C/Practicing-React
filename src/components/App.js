@@ -56,7 +56,7 @@ class App extends React.Component {
     const timestamp = Date.now();
     fishes[`fish-${timestamp}`] = fish;
     // set state
-    this.setState({ fishes: sampleFishes });
+    this.setState({ fishes });
     //this.state.fish1 = fish
   }
 
