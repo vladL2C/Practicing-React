@@ -11,7 +11,7 @@ const repo = `/${window.location.pathname.split('/')[1]}`;
 
 const Root = () => {
   return (
-    <BrowserRouter basename="/Practicing-react/">
+    <BrowserRouter basename="/">
       <div>
         <Match exactly pattern="/" component={StorePicker}/>
         <Match exactly pattern="/store/:storeId" component={App}/>
